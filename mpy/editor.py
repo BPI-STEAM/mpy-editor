@@ -26,8 +26,9 @@ logging.basicConfig(level=logging.INFO,
 def resource_path(relative):
     if hasattr(sys, "_MEIPASS"):
         return os.path.join(sys._MEIPASS, relative)
-    return os.path.join(relative)
-
+    # print(os.path.dirname(os.path.realpath(__file__)))
+    else:
+        return os.path.join(os.path.dirname(os.path.realpath(__file__)), relative)
 
 def center_window(window):
     window.update_idletasks()
@@ -155,7 +156,7 @@ class NotebookTab(ttk.Frame):
                     self.text_area.get(1.0, tk.END)[:-1])  # Text.get adds \n to the end, so this must be cut with [:-1]
             self.master.tab(self.master.select(), text=self.title)
         else:
-            self.file = filedialog.asksaveasfilename(initialdir="", title="Save File", defaultextension = '.py',
+            self.file = filedialog.asksaveasfilename(initialdir="", title="Save File", defaultextension='.py',
                                                      filetypes=[("python files", "*.py"), ("all files", "*.*")])
             with open(self.file, "w") as f:
                 f.write(self.text_area.get(1.0, tk.END))
@@ -333,7 +334,6 @@ class Editor(tk.Frame):
 
         if len(self.notebook_tabs) < 10:
             self._add_tab(title, file)
-
 
     def toggle_repl(self, visibility=None):
         if not self.repl:

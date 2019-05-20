@@ -1,4 +1,4 @@
-# mpy-editor [Chinese](README.md)
+# mpy-editor [中文](README.md)
 
 Simple! Easy! Quick! Start your micropython code!
 

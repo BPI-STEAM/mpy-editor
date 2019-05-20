@@ -533,9 +533,9 @@ class uSerial(serial.Serial):
 
     def run(self, command):
         self.enter_raw_repl()
-        self.exec(b"print('\\n'*4)\n")
+        # self.exec(b"print('\\n'*4)\n")
         self.exec(command)
-        self.exec(b"print('\\n'*2)\n")
+        # self.exec(b"print('\\n'*2)\n")
         self.exit_raw_repl()
 
     def run_file(self, filename):
@@ -565,6 +565,12 @@ class uSerial(serial.Serial):
             sleep(0.01)
         self.write(b'\x04')
 
+import re
+
+def filter_message(message):
+    message = message.replace("OK", "\n")
+    message = message.replace("\x04\x04>", "\n")
+    return message
 
 class SerialThread(threading.Thread):
 
@@ -602,7 +608,7 @@ class SerialThread(threading.Thread):
                         else:
                             incoming_bytes[index] = "$"
 
-                    incoming_message = "".join(incoming_bytes).replace("\r", "")
+                    incoming_message = filter_message("".join(incoming_bytes).replace("\r", ""))
                     self.repl.repl_text_field.insert(tk.END, incoming_message)
                     self.repl.repl_text_field.mark_set(tk.INSERT, tk.END)
                     self.repl.repl_text_field.see(tk.END)

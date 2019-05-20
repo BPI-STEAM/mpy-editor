@@ -3,7 +3,7 @@
 from distutils.core import setup
 
 setup(name='mpy-editor',
-      version="%d.%d.%d" % (1, 0, 7),
+      version="%d.%d.%d" % (1, 0, 8),
       description='Simple! Easy! Quick! Start your micropython code!',
       author='Juwan',
       author_email='junhuanchen@qq.com',

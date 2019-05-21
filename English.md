@@ -1,5 +1,7 @@
 # mpy-editor [中文](README.md)
 
+[![PyPI version](https://badge.fury.io/py/mpy-editor.svg)](https://badge.fury.io/py/mpy-editor)
+
 Simple! Easy! Quick! Start your micropython code!
 
 ## Features:

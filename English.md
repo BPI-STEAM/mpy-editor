@@ -2,7 +2,7 @@
 
 Simple! Easy! Quick! Start your micropython code!
 
-Features:
+## Features:
 
 1. Simple code editing tools based on TK, such as mu-editor.
 

@@ -1,5 +1,6 @@
-# mpy-editor [中文](README.md) [![MIT](https://img.shields.io/github/license/mashape/apistatus.svg?style=for-the-badge)](./LICENSE)
+# mpy-editor [中文](README.md)
 
+[![MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 [![PyPI version](https://badge.fury.io/py/mpy-editor.svg)](https://badge.fury.io/py/mpy-editor)
 
 Simple! Easy! Quick! Start your micropython code!

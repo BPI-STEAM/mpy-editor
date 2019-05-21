@@ -2,6 +2,23 @@
 
 Simple! Easy! Quick! Start your micropython code!
 
+Features:
+
+1. Simple code editing tools based on TK, such as mu-editor.
+
+2. Run automatic serial port search, prompt to connect hardware, theoretically support any connection of MicroPython firmware.
+
+3. No judgment mechanism is added in the process of serial port connection, which can be used as a general serial port tool to receive data.
+
+4. Hardware connected to MicroPython does not appear in upyCraft IDE's prompt to burn firmware.
+
+5. Green single file under Windows, out of the box, or using Python for cross-platform operation.
+
+## System requirements
+
+- Python 3.5.4 +
+- requirements.txt
+
 ## uasge
 
 ### 1. into [releases](https://github.com/junhuanchen/mpy-editor/releases)download editor.exe.

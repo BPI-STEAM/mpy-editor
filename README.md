@@ -2,6 +2,23 @@
 
 简单！容易！快速！开始你的 micropython 编程吧！
 
+特点：
+
+1. 基于 TK 制作的简易代码编辑工具，例如： Mu-editor 。
+
+2. 运行自动查找串口，提示连接硬件，理论上支持任何 MicroPython 固件的连接。
+
+3. 串口连接过程不添加任何判断机制，可以作为一般的串口工具接收数据使用。
+
+4. 连接 MicroPython 的硬件不会出现 upyCraft IDE 的提示烧写固件。
+
+5. Windows 下绿色单文件，开箱即用，也可使用 Python 跨平台运行。
+
+## 系统要求
+
+- Python 3.5.4 +
+- requirements.txt
+
 ## 使用方法
 
 ### 1. 到 [releases](https://github.com/junhuanchen/mpy-editor/releases) 下载 editor.exe。

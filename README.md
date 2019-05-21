@@ -1,5 +1,7 @@
 # MicroPython 编辑器 [English](English.md)
 
+[![PyPI version](https://badge.fury.io/py/mpy-editor.svg)](https://badge.fury.io/py/mpy-editor)
+
 简单！容易！快速！开始你的 micropython 编程吧！
 
 ## 特点：

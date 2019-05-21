@@ -21,7 +21,7 @@ Features:
 
 ## uasge
 
-### 1. into [releases](https://github.com/junhuanchen/mpy-editor/releases)download editor.exe.
+### 1. into [releases](https://github.com/junhuanchen/mpy-editor/releases) download editor.exe.
 
 double click it.
 

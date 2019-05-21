@@ -1,4 +1,4 @@
-# mpy-editor [中文](README.md)
+# mpy-editor [中文](README.md) [![MIT](https://img.shields.io/github/license/mashape/apistatus.svg?style=for-the-badge)](./LICENSE)
 
 Simple! Easy! Quick! Start your micropython code!
 

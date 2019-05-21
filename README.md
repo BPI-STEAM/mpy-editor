@@ -1,4 +1,4 @@
-# MicroPython 编辑器 [English](English.md)
+# MicroPython 编辑器 [English](English.md) [![MIT](https://img.shields.io/github/license/mashape/apistatus.svg?style=for-the-badge)](./LICENSE)
 
 简单！容易！快速！开始你的 micropython 编程吧！
 

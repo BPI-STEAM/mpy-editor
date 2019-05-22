@@ -1,6 +1,8 @@
 <html>
-<h1> &emsp;&emsp;&emsp;&emsp;&emsp; 一款易于使用的 MicroPython 编辑器 </h1>
+<h1>&emsp;&emsp;&emsp;&emsp;&emsp;一款易于使用的 MicroPython 编辑器 </h1>
 </html>
+
+# &emsp;&emsp;&emsp;&emsp;&emsp;一款易于使用的 MicroPython 编辑器
 
 [English Docs](English.md)
 

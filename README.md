@@ -6,23 +6,23 @@
 [![MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 [![PyPI version](https://badge.fury.io/py/mpy-editor.svg)](https://badge.fury.io/py/mpy-editor)
 
-简单！容易！快速！开始你的 micropython 编程吧！
+> “简单！容易！快速！开始你的 MicroPython 编程吧！”
 
 ## 特点：
 
-1. 基于 TK 制作的简易代码编辑工具，类似： Mu-editor 。
+1. 基于 TK 制作的简易代码编辑工具，类似：Mu-editor；
 
-2. 运行自动查找串口，提示连接硬件，理论上支持任何 MicroPython 固件的连接。
+2. 运行自动查找串口，提示连接硬件，理论上支持任何 MicroPython 固件的连接；
 
-3. 串口连接过程不添加任何判断机制，可以作为一般的串口工具接收数据使用。
+3. 串口连接过程不添加任何判断机制，可以作为一般的串口工具接收数据使用；
 
-4. 连接 MicroPython 的硬件不会出现 upyCraft IDE 的提示烧写固件。
+4. 连接 MicroPython 的硬件不会出现 upyCraft IDE 固件烧写的提示；
 
-5. Windows 下绿色单文件，开箱即用，也可使用 Python 跨平台运行。
+5. Windows 下绿色单文件，下载即用，也可使用 Python 跨平台运行。
 
 ## 系统要求
 
-- Python 3.5.4 +
+- Python 3.5.4+
 - requirements.txt
 
 ## 使用方法
@@ -33,7 +33,7 @@
 
 ### 2. 使用 PIP 安装
 
-使用 Python 的 PIP 工具下载并安装，在控制台中输入`pip insrall mpy-editor`，然后输入 `editor` 即可运行。
+使用 Python 的 PIP 工具下载并安装，在控制台中输入`pip install mpy-editor`，然后输入 `editor` 即可运行。
 
 ```shell
 pip install mpy-editor
@@ -59,35 +59,41 @@ editor
 
 ![](readme/05.png)
 
-## 运行 micropython 代码。
+## 运行 MicroPython 代码
 
-点击 Run (运行) 代码，如图的内置代码  `print('hello world!')` 运行即可。
+点击 Run (运行)，如图的内置代码  `print('hello world!')` 即可运行。
 
 ![](readme/07.png)
 
-## 查看运行的结果。
+## 查看运行的结果
 
 ![](readme/09.png)
 
-## 新建、加载、保存 你的代码。
+## 新建、加载、保存 你的代码
 
 ![](readme/11.png)
 
 # pyinstaller
 
-1. create editor.spec
+1. 生成 editor.spec
 
+```shell
 pyinstaller -w -F editor.py -i logo.ico
+```
 
-2. modify editor.spec
+2. 编辑 editor.spec，在文件第 9 行增加
 
-in 9 line editor.spec add `datas=[('mpy\\img','img')],`
+```shell
+datas=[('mpy\\img','img')],
+```
 
-3. create editor.exe
+3. 生成 editor.exe
 
+```shell
 pyinstaller -w -F editor.spec -i logo.ico
+```
 
-# uplaod pypi
+# upload pypi
 
 ```shell
 python setup.py sdist build
@@ -97,4 +103,3 @@ python setup.py sdist build
 # pip install twine
 twine upload dist/* --verbose
 ```
-

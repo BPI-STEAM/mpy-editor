@@ -3,8 +3,6 @@
 
 [English Docs](English.md)
 
-# mpy-editor
-
 [![MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 [![PyPI version](https://badge.fury.io/py/mpy-editor.svg)](https://badge.fury.io/py/mpy-editor)
 

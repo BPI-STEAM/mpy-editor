@@ -1,6 +1,6 @@
 
 ```
-      一款易于使用的 MicroPython 编辑器
+                                  一款易于使用的 MicroPython 编辑器
 ```
 
  [English Docs](English.md)

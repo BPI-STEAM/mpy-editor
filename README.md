@@ -36,9 +36,9 @@
 使用 Python 的 PIP 工具下载并安装，在控制台中输入`pip insrall mpy-editor`，然后输入 `editor` 即可运行。
 
 ```shell
-pip insrall mpy-editor
+pip install mpy-editor
 
-editor&emsp;
+editor
 ```
 
 ![](readme/01.png)

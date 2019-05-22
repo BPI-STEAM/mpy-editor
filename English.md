@@ -1,4 +1,9 @@
-# mpy-editor [中文](README.md)
+
+```
+      An easy to use MicroPython editor.
+```
+
+ [中文文档](README.md)
 
 [![MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 [![PyPI version](https://badge.fury.io/py/mpy-editor.svg)](https://badge.fury.io/py/mpy-editor)
@@ -7,7 +12,7 @@ Simple! Easy! Quick! Start your micropython code!
 
 ## Features:
 
-1. Simple code editing tools based on TK, such as mu-editor.
+1. Simple code editing tools based on TK, similar as mu-editor.
 
 2. Run automatic serial port search, prompt to connect hardware, theoretically support any connection of MicroPython firmware.
 

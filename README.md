@@ -1,9 +1,8 @@
+<html>
+<h1> &emsp;&emsp;&emsp;&emsp;&emsp;一款易于使用的 MicroPython 编辑器 </h1>
+</html>
 
-```
-                                  一款易于使用的 MicroPython 编辑器
-```
-
- [English Docs](English.md)
+[English Docs](English.md)
 
 # mpy-editor
 
@@ -42,7 +41,7 @@
 ```shell
 pip insrall mpy-editor
 
-editor
+editor&emsp;
 ```
 
 ![](readme/01.png)

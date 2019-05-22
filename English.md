@@ -38,7 +38,8 @@ double click it.
 run `pip insrall mpy-editor` in your cmd(shell), then input `editor` run it.
 
 ```shell
-pip insrall mpy-editor
+pip install mpy-editor
+
 editor
 ```
 

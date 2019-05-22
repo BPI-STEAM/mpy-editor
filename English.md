@@ -1,6 +1,5 @@
-<html>
-<h1> &emsp;&emsp;&emsp;&emsp;&emsp; An easy to use MicroPython editor. </h1>
-</html>
+
+# &emsp;&emsp;&emsp;&emsp;&emsp;An easy to use MicroPython editor.
 
  [中文文档](README.md)
 
